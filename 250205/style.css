@@ -1,0 +1,56 @@
+/*header bölümü*/
+header{
+    background-color: #222;
+    color: #ccc;
+    border-bottom: solid 3px red;
+}
+footer{
+    background-color: #252627;
+    color: #ccc;
+}
+#ust-menu a, #dil-menu a, #ana-menu a, #alt-menu a, #alt-ıcon a{
+    text-decoration: none;
+    color: #ccc;
+    display: block;
+    padding: 10px;
+    transition: 0.5s;
+}
+#logo{
+    padding: 10px 0;
+    border-bottom: solid #ccc 2px;
+}
+#ana-menu a:hover{
+    background-color: red;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.card img{
+    width: 100%;
+}
+.card{
+    background-color: #252627;
+    padding: 10px;
+    color: #ccc;
+}
+.tur{
+    background-color: red;
+    padding: 10px;
+}
+.yer{
+    padding-top: 20px;
+}
+main{
+    background-color: #ccc;
+    padding-bottom: 20px;
+}
+.card{
+    margin: 5px;
+    min-height: 100%;
+}
+#soz{
+    background-color: red;
+    border: solid 5px white;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+}
